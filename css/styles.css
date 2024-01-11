@@ -290,3 +290,36 @@ p {
 	opacity: 0.6;
 }
 /* CTA END */
+
+/* FOOTER START */
+.site-footer {
+	background-color: #222222;
+	color: #fff;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.site-footer-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-footer-text {
+	color: #fff;
+}
+
+.site-footer-text:active {
+	color: #fff;
+	opacity: 0.6;
+}
+
+.site-footer-link {
+	color: #fff;
+}
+
+.site-footer-link:active {
+	color: #fff;
+	opacity: 0.6;
+}
+/* FOOTER END */
