@@ -246,3 +246,47 @@ p {
 	justify-content: center;
 }
 /* services end */
+
+/* CTA START */
+.cta {
+	background-color: #0eb4c1;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: #fff;
+}
+
+.cta-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.cta-title {
+	margin-bottom: 40px;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 43.2px */
+}
+
+.cta-btn {
+	background-color: transparent;
+	border-color: #fff;
+	transition: all 0.4s ease;
+}
+
+.cta-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.cta-btn:hover {
+	background-color: #de2e54;
+	border-color: #de2e54;
+	color: #fff;
+}
+
+.cta-btn:active {
+	opacity: 0.6;
+}
+/* CTA END */
