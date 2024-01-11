@@ -143,3 +143,43 @@ p {
 .menu-link:active {
 	opacity: 0.6;
 }
+
+/* SITE_HERO */
+.site-hero {
+	padding-top: 29px;
+	background-color: #0eb4c1;
+	color: #fff;
+}
+
+.site-hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-hero-info {
+	max-width: 500px;
+	width: 100%;
+	margin-right: 20px;
+}
+
+.site-hero-title {
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 120%; /* 43.2px */
+	margin-bottom: 16px;
+}
+
+.site-hero-text {
+	font-size: 18px;
+	font-style: normal;
+	line-height: 150%;
+	margin-bottom: 36px;
+}
+
+.site-hero-btn:hover {
+	background: rgba(222, 46, 84, 0.8);
+	border-color: transparent;
+	color: #fff;
+}
